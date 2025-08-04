@@ -1,0 +1,509 @@
+body {
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfc;
+}
+
+
+
+/* css for section */
+.top-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    font-weight: 400px;
+    padding-left: 240px;
+    padding-right: 251.73px;
+    font-size: 14px;
+}
+
+.banner {
+    background-color: #F2F6F7;
+    display: flex;
+    padding-left: 237.37px;
+    padding-right: 237.37px;
+    height: 849px;
+    align-items: center;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 220px;
+    padding-right: 240px;
+    align-items: center;
+    height: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.content-commercial {
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.content-services {
+    background-color: #F2F6F7;
+    padding-bottom: 100px;
+}
+
+.content-feature {
+    background-color: white;
+    padding-left: 376.34px;
+    padding-right: 376.66px;
+    padding-top: 119.83px;
+    padding-bottom: 119.87px;
+}
+
+
+
+/* css for class */
+.information {
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+}
+
+.social-media {
+    display: flex;
+    width: 136.4px;
+    justify-content: space-between;
+}
+
+.navbar-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62%;
+}
+
+.navbar-item {
+    align-items: center;
+}
+
+.signup-btn {
+    width: 130.46px;
+    height: 52.78px;
+    background-color: #ff5a3c;
+    font-size: 18px;
+    font-weight: 600px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.right-content-bn {
+    position: relative;
+    background-color: #c4c4c4;
+    width: 59%;
+    height: 703.6px;
+    margin-top: -11%;
+}
+
+.left-content-bn {
+    width: 41%;
+}
+
+.content-btn {
+    display: flex;
+    gap: 37px;
+}
+
+.banner-content {
+    width: 415px;
+}
+
+.arrow-on-banner {
+    position: absolute;
+    left: 600px;
+
+}
+
+.revenue {
+    background-color: white;
+    width: 240px;
+    height: 190px;
+    border-radius: 20px;
+    position: absolute;
+    left: -7%;
+    bottom: -7%;
+    padding-top: 38px;
+    padding-left: 49px;
+    padding-bottom: 15px;
+}
+
+.revenue-logo {
+    margin-bottom: 30px;
+}
+
+.headline-quote-commercial {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.headline-quote-services {
+    text-align: center;
+    padding-top: 85px;
+}
+
+.guides-part {
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+    gap: 52px;
+}
+
+.guides-item-white, .guides-item-orange {
+    width: 360px;
+    height: 340px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.guides-item-white {
+    background-color: #FFFFFF;
+}
+
+.guides-item-orange {
+    background-color: #FF5A3C;
+}
+
+.list-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28.7px;
+    width: 60%;
+    height: 740px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.service-item {
+    width: 100%;
+    height: 100%;
+    background-color: #fbfbfb;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.content-service-item {
+    text-align: center;
+}
+
+
+.header-navbar-feature {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-feature {
+
+}
+
+.navbar-feature {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 81px;
+}
+
+.list-feature {
+    margin-top: 71px;
+    display: flex;
+    gap: 33px;
+}
+
+.item-feature {
+    width: 368px;
+    height: 368px;
+    background-color: #c4c4c4;
+    position: relative;
+}
+
+.item-note-chosen {
+    position: absolute;
+    background-color: white;
+    width: 70%;
+    height: 138px;
+    bottom: 0;
+    left: 0;
+    padding-left: 7%;
+    padding-top: 5%;
+    box-shadow: -8px 8px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.item-note {
+    position: absolute;
+    background-color: white;
+    width: 70%;
+    height: 138px;
+    bottom: 0;
+    left: 0;
+    padding-left: 7%;
+    padding-top: 5%;
+
+}
+
+.continue-div-chosen {
+    width: 72px;
+    height: 44px;
+    background-color: #FF5A3C;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue-div {
+    width: 72px;
+    height: 44px;
+    background-color: #c4c4c4;
+    color: #242424;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-explore-div {
+    text-align: center;
+    padding: 59.5px;
+}
+
+.explore-btn {
+    width: 172px;
+    height: 60px;
+    background-color: white;
+    border: solid 1px;
+    border-color: #FF5A3C;
+    color: #FF5A3C;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* css for icon, image, button, item */
+.fa-twitter, .fa-envelope, .fa-location-dot {
+    color: #ff5a3c;
+}
+
+.fa-c {
+    color: #ff5a3c;
+    width: 54.61px;
+    height: 54.61px;
+}
+
+
+.img-logo {
+    width: 150px;
+}
+
+.headline {
+    font-size: 64px;
+    font-weight: 700;
+    
+}
+
+.banner-content {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color: #9EABB2;
+    margin-bottom: 23px;
+}
+
+.sign-member {
+    background-color: #ff5a3c;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 210px;
+    height: 58px;
+    border: none;
+    border-radius: 10px;
+}
+
+.how-btn {
+    background-color: #ff5a3c;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    border-top-left-radius: 10px;
+    width: 198.2px;
+    height: 74.33px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-how-btn {
+    margin-top: 5px;
+}
+
+.money-revenue {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.note-revenue {
+    font-weight: 500;
+    font-size: 16px;
+    color: #9EABB2;
+}
+
+.header-1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    width: 567px;
+    margin: 0 auto;
+}
+
+.header-1-service {
+    font-weight: 700;
+    font-size: 48px;
+    width: 581px;
+    margin: 0 auto;
+}
+
+.quote-1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9EABB2;
+    width: 425px;
+    margin: 0 auto;
+}
+
+.quote-1-services {
+    font-weight: 400;
+    font-size: 16px;
+    color: #655F73;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.content-guides {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #899AA2;
+    width: 280px;
+    margin: auto;
+}
+
+.header-guide-white {
+    color: white;
+}
+
+.content-guides-orange {
+    color: #ffded8;
+}
+
+.header-guide, .header-guide-white {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: -10px;
+}
+
+.service-item-quote {
+    font-family: 'Nunito', sans-serif;
+    width: 85%;
+    color: #8C8C8C;
+    padding-left: 8%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.service-item-header {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.service-item-logo {
+    margin-bottom: 40px;
+}
+
+.learn-more {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.headline-content-feature {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    color: #242424;
+}
+
+.quote-content-feature {
+    width: 393px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #899AA2;
+    margin-bottom: 0;
+}
+
+.navbar-feature-item {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #899AA2;
+}
+
+#item-chosen {
+    border-bottom: solid 2px;
+    border-color: #FF5A3C;
+}
+
+.header-item-feature-lst {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.address-item-feature-lst {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899AA2;
+}
+
+.price-item-feature-lst-chosen {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FF5A3C;
+}
+
+.price-item-feature-lst {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #071C1F;
+}
