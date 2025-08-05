@@ -1212,6 +1212,35 @@ label, input {
     color: #A6B2D3;
 }
 
+
+@media (max-width: 1800px) {
+    .information {
+        width: 40%;
+    }
+    .navbar-item {
+        font-size: 16px;
+    }
+
+    .arrow-on-banner {
+        bottom: 50%;
+        left: 30%;
+    }
+    .content-feature {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .content-longest {
+        padding-left: 280px;
+        padding-right: 280px;
+    }
+    .input-form-contact {
+        width: 90%;
+    }
+    .input-form-contact-textarea {
+        width: 90%;
+    }
+}
+
 @media (max-width: 1280px) {
   .information {
     width: 55%;
