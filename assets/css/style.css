@@ -57,7 +57,33 @@ body {
     padding-left: 376.34px;
     padding-right: 376.66px;
     padding-top: 119.83px;
-    padding-bottom: 119.87px;
+}
+
+.second-banner {
+    background-color: #c4c4c4;
+    height: 400px;
+    position: relative;
+}
+
+.content-longest {
+    padding-left: 376px;
+    padding-right: 376px;
+    padding-top: 119px;
+    /* text-align: center; */
+}
+
+.footer {
+    margin-top: 132px;
+    background-color: #171b2a;
+    height: 502px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-bar {
+    background-color: #FF5A3C;
+    height: 20px;
 }
 
 
@@ -103,6 +129,7 @@ body {
     width: 59%;
     height: 703.6px;
     margin-top: -11%;
+    text-align: left;
 }
 
 .left-content-bn {
@@ -297,6 +324,270 @@ body {
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
 }
+
+.product-content {
+    width: 380px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+}
+
+.extra-info {
+    display: flex;
+    gap: 20px;
+}
+
+.extra-info-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.info-image {
+    position: relative;
+}
+
+.main-first-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 5%;
+    height: 500px;
+}
+
+.lefft-main-content-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17%;
+    position: relative;
+}
+
+.right-main-content-first {
+    display: flex;
+    gap: 7%;
+    height: 85%;
+}
+
+.header-quote-firt-part {
+    text-align: center;
+}
+
+.header-quote-second-part {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.header-quote-third-part {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-part {
+    text-align: center;
+}
+
+.list-project {
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.project-item {
+    background-color: #898989;
+    width: 330px;
+    height: 170px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcribe-bar {
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    width: 610px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    margin-top: 65px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.placeholder-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-part-bar {
+    height: 100%;
+    text-align: center;
+}
+
+.list-blog {
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blog-item {
+    width: 368px;
+    height: 504px;
+    background-color: #C4C4C4;
+    position: relative;
+}
+
+.info-blog-item {
+    height: 50%;
+    width: 95%;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+    position: absolute;
+    bottom: 0;
+}
+
+.rental-blog-item {
+    display: flex;
+    gap: 10px;
+}
+
+.another-info-blog {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer-blog {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-blog {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-contact-us {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.left-contact-us {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right-contact-us {
+    width: 50%;
+    background-color: #f2f6f7;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 37px;
+    padding-bottom: 34px;
+    padding-top: 40px;
+    border-radius: 8px;
+}
+
+.bullet-item-contact {
+    display: flex;
+    gap: 10px;
+}
+
+.bullet-point-contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 60%;
+    margin-top: 70px;
+}
+.logo-reanty-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.social-media-top-foot {
+    display: flex;
+    gap: 14px;
+}
+
+.top-foot-first {
+    width: 25%;
+}
+
+.top-foot-second, .top-foot-third, .top-foot-fourth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-foot-fifth {
+    width: 29%;
+}
+
+.send-bar-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border-bottom: solid 1px #4D69AF;
+    padding-bottom: 18px;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 5%;
+}
+
+
+
 
 /* css for icon, image, button, item */
 .fa-twitter, .fa-envelope, .fa-location-dot {
@@ -507,3 +798,1542 @@ body {
     font-size: 18px;
     color: #071C1F;
 }
+
+.img-product {
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.price-product {
+    font-weight: 600;
+    font-size: 30px;
+    color: #071C1F;
+}
+
+.address-product {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6D7781;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+
+.content-extra-item {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6D7781;
+}
+
+.icon-money {
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+}
+
+.header-first-part {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #071C1F;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.header-second-part {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    color: #071C1F;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 544px;
+    margin: auto;
+}
+
+.header-third-part {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #242424;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.header-fourth-part {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1F242E;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.quote-first-part {
+    font-weight: 500;
+    font-size: 18px;
+    color: #757474;
+    width: 450px;
+    margin: auto;
+}
+
+.quote-third-part {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757474;
+    line-height: 28px;
+    width: 450px;
+    margin: auto;
+}
+
+.quote-fourth-part {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF5A3C;
+    line-height: 18px;
+    width: 218.2px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.left-image {
+    width: 373px;
+    height: 436px;
+    background-color: #c4c4c4;
+    border-radius: 12px;
+}
+.left-image-orange {
+    width: 300px;
+    height: 436px;
+    background-color: #FF5A3C;
+    border-radius: 12px;
+    position: absolute;
+    z-index: -1;
+    top: 8%;
+    left: 22%;
+
+}
+
+.quote-from-student {
+    width: 450px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    color: #071C1F;
+    display: block;
+    text-align: justify;
+}
+
+.student-name {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.short-introduction {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.name-project {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.project-item-btn {
+    color: #FF5A3C;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.content-place-holder {
+    font-weight: 500;
+    font-size: 18px;
+    color: #c1c1c1;
+    margin-top: -3px !important;
+}
+
+.subcribe-btn {
+    width: 152px;
+    height: 56px;
+    background-color: #FF5A3C;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-blog-item {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #242424;
+}
+
+.rental-content {
+    color: #FF5A3C;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.short-des-blog {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8C8C8C;
+}
+
+.timer-content {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5D5D5D;
+}
+
+.by-author-blog {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5D5D5D;
+}
+
+.name-author-blog {
+    color: #FF5A3C;
+}
+
+.last-of-third-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-read-all {
+    background-color: white;
+    border: solid 1px;
+    color: #FF5A3C;
+    border-color: #FF5A3C;
+    width: 172px;
+    height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.img-part-contact {
+    width: 852px;
+}
+
+label, input {
+    display: block;
+}
+
+.short-des-contact-us {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8C8C8C;
+    width: 393px;
+    margin-bottom: 35px;
+}
+
+.content-bullet {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #242424;
+}
+
+.header-form-contact {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63.98px;
+    color: #242424;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.label-form-contact {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.input-form-contact, .input-form-contact-textarea {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    color: #999999;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 418.2px;
+}
+
+.input-form-contact-textarea {
+    height: 119.26px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.input-form-contact {
+    height: 55.7px;
+    padding-left: 16px;
+}
+
+.submit-btn-form {
+    background-color: #FF5A3C;
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    width: 129px;
+    height: 53px;
+    margin-top: 40px;
+}
+
+.reanty-footer {
+    font-weight: 600;
+    font-size: 24px;
+}
+.dot {
+    color: #FF5A3C;
+}
+
+.content-top-foot-first {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #C4C4C4;
+    line-height: 34px;
+    width: 90%;
+}
+
+.footer-icon {
+    color: #FF5A3C;
+}
+
+.social-item-package {
+    width: 36px;
+    height: 36px;
+    border: solid 1px #FF5A3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.header-foot-content {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.item-foot-content {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #c5c6ca;
+}
+
+.header-fith-part {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.content-head-office {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #c5c6ca;
+    width: 95%;
+    height: 62px;
+}
+
+.placeholder-email {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #A6B2D3;
+}
+
+.content-bottom-footer {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #A6B2D3;
+    border-bottom: solid 1px #4D69AF;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A6B2D3;
+}
+
+@media (max-width: 1280px) {
+  .information {
+    width: 55%;
+  }
+  .navbar-detail {
+    width: 60%;
+  }
+  .navbar-item {
+    font-size: 12px;
+  }
+  .signup-btn {
+    width: 18%;
+    font-size: 15px;
+  }
+  .banner {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  .left-content-bn {
+    width: 50%;
+  }
+
+  .headline {
+    font-size: 53px;
+  }
+
+  .banner-content {
+    width: 90%;
+  }
+
+  .right-content-bn {
+    height: 89%;
+    margin-top: -11%;
+  }
+  .revenue {
+    width: 150px;
+    height: 90px;
+    padding-left: 20px;
+    left: -5%;
+    bottom: -4%;
+  }
+  .money-revenue {
+    font-size: 20px;
+  }
+  .revenue-logo {
+    margin-bottom: 0;
+    margin-top: -15px;
+  }
+  .note-revenue {
+    font-size: 12px;
+  }
+  .arrow-on-banner {
+    left: 30%;
+    bottom: 30%;
+  }
+
+  .list-services {
+    width: 80%;
+  }
+
+  .content-feature {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .content-longest {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  .blog-item {
+    width: 368px;
+    height: 450px;
+  }
+
+  .short-des-blog {
+    font-size: 14px;
+  }
+  .another-info-blog {
+    gap: 2px;
+  }
+
+  .timer-content {
+    font-size: 14px;
+  }
+
+  .by-author-blog {
+    font-size: 14px;
+  }
+
+  .author-blog {
+    width: 60%;
+  }
+
+  .rental-content {
+    font-size: 12px;
+  }
+
+  .header-blog-item {
+    font-size: 16px;
+  }
+
+  .header-form-contact {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  .right-contact-us {
+    width: 70%;
+    background-color: #f2f6f7;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  .content-contact-us {
+    gap: 50px;
+  }
+  
+  .top-footer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .information {
+    width: 60%;
+    font-size: 10px;
+  }
+
+  .social-media {
+    font-size: 12px;
+  }
+
+  .navbar-detail {
+    width: 60%;
+  }
+  .navbar-item {
+    font-size: 12px;
+  }
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 70px;
+  }
+  .signup-btn {
+    width: 18%;
+    font-size: 12px;
+    height: 35px;
+  }
+  .banner {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .left-content-bn {
+    width: 50%;
+  }
+
+  .headline {
+    font-size: 53px;
+  }
+
+  .banner-content {
+    width: 90%;
+  }
+
+  .right-content-bn {
+    height: 89%;
+    margin-top: -13%;
+  }
+  .revenue {
+    width: 150px;
+    height: 90px;
+    padding-left: 20px;
+    left: -5%;
+    bottom: -4%;
+  }
+  .money-revenue {
+    font-size: 20px;
+  }
+  .revenue-logo {
+    margin-bottom: 0;
+    margin-top: -15px;
+  }
+  .note-revenue {
+    font-size: 12px;
+  }
+  .arrow-on-banner {
+    left: 30%;
+    bottom: 52%;
+  }
+
+  .pointer {
+    width: 200px;
+    height: 90px;
+  }
+
+  .list-services {
+    width: 80%;
+  }
+
+  .header-1 {
+    font-size: 40px;
+  }
+
+  .quote-1 {
+    font-size: 16px;
+  }
+
+  .guides-part {
+    gap: 2px;
+  }
+
+  .guides-item-white, .guides-item-orange {
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .content-feature {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .lefft-main-content-first {
+    gap: 12%;
+  }
+
+  .left-image {
+    width: 300px;
+    height: 436px;
+  }
+
+  .left-image-orange {
+    width: 250px;
+    height: 430px;
+  }
+
+  .content-longest {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  
+  .blog-item {
+    width: 368px;
+    height: 450px;
+  }
+
+  .short-des-blog {
+    font-size: 14px;
+  }
+  .another-info-blog {
+    gap: 2px;
+  }
+
+  .timer-content {
+    font-size: 14px;
+  }
+
+  .by-author-blog {
+    font-size: 14px;
+  }
+
+  .author-blog {
+    width: 60%;
+  }
+
+  .rental-content {
+    font-size: 12px;
+  }
+
+  .header-blog-item {
+    font-size: 16px;
+  }
+
+  .header-form-contact {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  .right-contact-us {
+    width: 70%;
+    background-color: #f2f6f7;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  .content-contact-us {
+    gap: 50px;
+  }
+  
+  .top-footer {
+    width: 90%;
+  }
+
+  .bottom-footer {
+    width: 70%;
+  }
+  
+}
+
+@media (max-width: 912px) {
+    .top-bar {
+        width: 100vw;
+        
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
+    }
+    .navbar {
+        width: 89vw;
+    }
+    .banner {
+        width: 85vw;
+    }
+    .content-commercial {
+        width: 109vw;
+    }
+    .content-services {
+        width: 109vw;
+    }
+    .content-feature {
+        width: 99vw;
+    }
+    .second-banner {
+        width: 109vw;
+    }
+    .content-longest {
+        /* background-color: black; */
+        width: 90vw;
+    }
+  .information {
+    width: 60%;
+    font-size: 8px;
+  }
+
+  .social-media {
+    font-size: 12px;
+  }
+
+  .navbar-detail {
+    width: 60%;
+  }
+  .navbar-item {
+    font-size: 12px;
+  }
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 70px;
+  }
+  .signup-btn {
+    width: 18%;
+    font-size: 12px;
+    height: 35px;
+  }
+  .banner {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .left-content-bn {
+    width: 50%;
+  }
+
+  .headline {
+    font-size: 53px;
+  }
+
+  .banner-content {
+    width: 90%;
+  }
+
+  .right-content-bn {
+    height: 89%;
+    margin-top: -13%;
+  }
+  .revenue {
+    width: 150px;
+    height: 90px;
+    padding-left: 20px;
+    left: -5%;
+    bottom: -4%;
+  }
+  .money-revenue {
+    font-size: 20px;
+  }
+  .revenue-logo {
+    margin-bottom: 0;
+    margin-top: -15px;
+  }
+  .note-revenue {
+    font-size: 12px;
+  }
+  .arrow-on-banner {
+    left: 30%;
+    bottom: 52%;
+  }
+
+  .pointer {
+    width: 200px;
+    height: 90px;
+  }
+
+  .list-services {
+    width: 80%;
+  }
+
+  .header-1 {
+    font-size: 40px;
+  }
+
+  .quote-1 {
+    font-size: 16px;
+  }
+
+  .guides-part {
+    gap: 2px;
+  }
+
+  .guides-item-white, .guides-item-orange {
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .content-feature {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .lefft-main-content-first {
+    gap: 12%;
+  }
+
+  .left-image {
+    width: 300px;
+    height: 436px;
+  }
+
+  .left-image-orange {
+    width: 250px;
+    height: 430px;
+  }
+
+  .content-longest {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  
+  .blog-item {
+    width: 368px;
+    height: 450px;
+  }
+
+  .short-des-blog {
+    font-size: 14px;
+  }
+  .another-info-blog {
+    gap: 2px;
+  }
+
+  .timer-content {
+    font-size: 14px;
+  }
+
+  .by-author-blog {
+    font-size: 14px;
+  }
+
+  .author-blog {
+    width: 60%;
+  }
+
+  .rental-content {
+    font-size: 12px;
+  }
+
+  .header-blog-item {
+    font-size: 16px;
+  }
+
+  .header-form-contact {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  .right-contact-us {
+    width: 50%;
+    background-color: #f2f6f7;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  .input-form-contact {
+    width: 90%;
+  }
+
+  .input-form-contact-textarea {
+    width: 90%;
+  }
+
+  .content-contact-us {
+    gap: 50px;
+  }
+  
+  .top-footer {
+    width: 90%;
+  }
+
+  .bottom-footer {
+    width: 70%;
+  }
+  
+}
+
+@media (max-width: 900px) {
+    .top-bar {
+        width: 91vw;
+        
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
+    }
+    .navbar {
+        width: 80vw;
+    }
+    .banner {
+        width: 90vw;
+    }
+    .content-commercial {
+        width: 100vw;
+
+    }
+    .content-services {
+        width: 100vw;
+    }
+    .content-feature {
+        width: 90vw;
+    }
+    .second-banner {
+        width: 100vw;
+    }
+    .content-longest {
+        width: 86vw;
+    }
+  .information {
+    width: 40%;
+    font-size: 8px;
+  }
+
+  .header-navbar-feature {
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-media {
+    font-size: 12px;
+  }
+
+  .navbar-detail {
+    width: 60%;
+  }
+  .navbar-item {
+    font-size: 10px;
+  }
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 70px;
+  }
+  .signup-btn {
+    width: 18%;
+    font-size: 10px;
+    height: 35px;
+  }
+  .banner {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .left-content-bn {
+    width: 50%;
+  }
+
+  .headline {
+    font-size: 53px;
+  }
+
+  .banner-content {
+    width: 90%;
+  }
+
+  .right-content-bn {
+    height: 89%;
+    margin-top: -13%;
+  }
+  .revenue {
+    width: 150px;
+    height: 90px;
+    padding-left: 20px;
+    left: -5%;
+    bottom: -4%;
+  }
+  .money-revenue {
+    font-size: 20px;
+  }
+  .revenue-logo {
+    margin-bottom: 0;
+    margin-top: -15px;
+  }
+  .note-revenue {
+    font-size: 12px;
+  }
+  .arrow-on-banner {
+    left: 30%;
+    bottom: 52%;
+  }
+
+  .pointer {
+    width: 200px;
+    height: 90px;
+  }
+
+  .list-services {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .list-feature {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-1 {
+    font-size: 30px;
+  }
+
+  .quote-1 {
+    font-size: 14px;
+  }
+
+  .guides-part {
+    gap: 2px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guides-item-white, .guides-item-orange {
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .header-1-service {
+    font-size: 38px;
+    width: 100%;
+  }
+
+  .quote-1-services {
+    font-size: 13px;
+    color: #655F73;
+    width: 530px;
+  }
+
+  .content-feature {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .lefft-main-content-first {
+    gap: 12%;
+  }
+
+  .left-image {
+    width: 300px;
+    height: 436px;
+  }
+
+  .header-first-part {
+    font-size: 35px;
+  }
+
+  .quote-from-student {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .left-image-orange {
+    width: 250px;
+    height: 430px;
+  }
+
+  .content-longest {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .list-blog {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-item {
+    width: 368px;
+    height: 450px;
+  }
+
+  .short-des-blog {
+    font-size: 14px;
+  }
+  .another-info-blog {
+    gap: 2px;
+  }
+
+  .timer-content {
+    font-size: 14px;
+  }
+
+  .by-author-blog {
+    font-size: 14px;
+  }
+
+  .author-blog {
+    width: 60%;
+  }
+
+  .rental-content {
+    font-size: 12px;
+  }
+
+  .header-blog-item {
+    font-size: 16px;
+  }
+
+  .header-form-contact {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  .right-contact-us {
+    width: 50%;
+    background-color: #f2f6f7;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  .input-form-contact {
+    width: 90%;
+  }
+
+  .input-form-contact-textarea {
+    width: 90%;
+  }
+
+  .content-contact-us {
+    gap: 50px;
+  }
+  
+  .top-footer {
+    width: 90%;
+  }
+
+  .bottom-footer {
+    width: 70%;
+  }
+  
+}
+
+@media (max-width: 431px) {
+    .top-bar {
+        width: 137vw;
+        flex-direction: column;
+        align-items: center;
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
+    }
+    .navbar {
+        width: 126vw;
+    }
+    .banner {
+        width: 136vw;
+    }
+    .img-logo {
+        width: 80px;
+    }
+    .content-commercial {
+        width: 146vw;
+
+    }
+    .content-services {
+        width: 146vw;
+    }
+    .content-feature {
+        width: 136vw;
+    }
+    .second-banner {
+        width: 146vw;
+    }
+    .content-longest {
+        width: 132vw;
+    }
+  .information {
+    width: 70%;
+    font-size: 8px;
+  }
+
+  .header-navbar-feature {
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-media {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .navbar-detail {
+    width: 60%;
+  }
+  .navbar-item {
+    font-size: 5px;
+  }
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 40px;
+  }
+  .signup-btn {
+    width: 18%;
+    font-size: 5px;
+    height: 15px;
+  }
+  .banner {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .left-content-bn {
+    width: 50%;
+  }
+
+  .headline {
+    font-size: 30px;
+  }
+
+  .banner-content {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .sign-member {
+    font-size: 10px;
+    width: 120px;
+  }
+
+  .subcribe-bar {
+    width: 70%;
+  }
+
+  .right-content-bn {
+    height: 89%;
+    margin-top: -13%;
+  }
+  .revenue {
+    width: 150px;
+    height: 90px;
+    padding-left: 20px;
+    left: -90%;
+    bottom: -4%;
+  }
+
+  .how-btn {
+    font-size: 10px;
+    width: 100px;
+  }
+  .content-btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .money-revenue {
+    font-size: 20px;
+  }
+  .revenue-logo {
+    margin-bottom: 0;
+    margin-top: -15px;
+  }
+  .note-revenue {
+    font-size: 12px;
+  }
+  .arrow-on-banner {
+    left: 30%;
+    bottom: 52%;
+  }
+
+  .pointer {
+    width: 200px;
+    height: 90px;
+  }
+
+  .list-services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list-feature {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-1 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .quote-1 {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .guides-part {
+    gap: 2px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guides-item-white, .guides-item-orange {
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .header-1-service {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .quote-1-services {
+    font-size: 13px;
+    color: #655F73;
+    width: 300px;
+  }
+
+  .service-item-header {
+    font-size: 16px;
+  }
+
+  .service-item-quote {
+    font-size: 14px;
+  }
+
+  .learn-more {
+    font-size: 12px;
+  }
+
+  .content-feature {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .lefft-main-content-first {
+    gap: 12%;
+  }
+
+  .left-image {
+    width: 300px;
+    height: 436px;
+  }
+  .headline-content-feature {
+    font-size: 30px;
+  }
+
+  .quote-content-feature {
+    font-size: 16px;
+  }
+  
+  .navbar-feature-item {
+    font-size: 12px;
+  }
+
+  .navbar-feature {
+    margin-top: 20px;
+  }
+
+  .header-first-part {
+    font-size: 35px;
+  }
+
+  .quote-from-student {
+    width: 200px;
+    font-size: 12px;
+  }
+
+
+
+  .left-image-orange {
+    width: 250px;
+    height: 430px;
+  }
+
+  .content-longest {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .list-blog {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-item {
+    width: 368px;
+    height: 450px;
+  }
+
+  .short-des-blog {
+    font-size: 14px;
+  }
+  .another-info-blog {
+    gap: 2px;
+  }
+
+  .timer-content {
+    font-size: 14px;
+  }
+
+  .by-author-blog {
+    font-size: 14px;
+  }
+
+  .author-blog {
+    width: 60%;
+  }
+
+  .rental-content {
+    font-size: 12px;
+  }
+
+  .header-blog-item {
+    font-size: 16px;
+  }
+
+  .header-form-contact {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  .right-contact-us {
+    width: 50%;
+    background-color: #f2f6f7;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  .input-form-contact {
+    width: 90%;
+  }
+
+  .input-form-contact-textarea {
+    width: 90%;
+  }
+
+  .content-contact-us {
+    gap: 50px;
+  }
+  
+  .top-footer {
+    width: 90%;
+  }
+
+  .bottom-footer {
+    width: 70%;
+  }
+  
+}
+
